@@ -11,6 +11,9 @@
 		22D74F5B25222ED000F496A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D74F5A25222ED000F496A0 /* ContentView.swift */; };
 		22D74F5D25222ED100F496A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D74F5C25222ED100F496A0 /* Assets.xcassets */; };
 		22D74F6025222ED100F496A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D74F5F25222ED100F496A0 /* Preview Assets.xcassets */; };
+		22D74F692522341100F496A0 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D74F682522341100F496A0 /* DiceView.swift */; };
+		22D74F6C25223C5800F496A0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D74F6B25223C5800F496A0 /* ListView.swift */; };
+		22D74F6F252249D000F496A0 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D74F6E252249D000F496A0 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		22D74F5C25222ED100F496A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D74F5F25222ED100F496A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22D74F6125222ED100F496A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D74F682522341100F496A0 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		22D74F6B25223C5800F496A0 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		22D74F6E252249D000F496A0 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				22D74F5825222ED000F496A0 /* diceRollApp.swift */,
 				22D74F5A25222ED000F496A0 /* ContentView.swift */,
+				22D74F682522341100F496A0 /* DiceView.swift */,
+				22D74F6B25223C5800F496A0 /* ListView.swift */,
+				22D74F6E252249D000F496A0 /* Score.swift */,
 				22D74F5C25222ED100F496A0 /* Assets.xcassets */,
 				22D74F6125222ED100F496A0 /* Info.plist */,
 				22D74F5E25222ED100F496A0 /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D74F6C25223C5800F496A0 /* ListView.swift in Sources */,
 				22D74F5B25222ED000F496A0 /* ContentView.swift in Sources */,
+				22D74F692522341100F496A0 /* DiceView.swift in Sources */,
 				22D74F5925222ED000F496A0 /* diceRollApp.swift in Sources */,
+				22D74F6F252249D000F496A0 /* Score.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
